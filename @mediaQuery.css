@@ -1,0 +1,83 @@
+@media (200px<width<600px) {
+    
+
+    .headerImg{
+        height: 70vh;
+        width: 100vw;
+    }
+    #heading{
+        font-size: 1.5rem;  
+    }
+
+    .intro{
+        height: 50%;
+        padding: 20px;
+        font-size: 0.9rem;
+        padding-top: 20px;
+    }
+    
+    .section1{
+        height: 70vh;
+        width: 100vw;
+       
+    }
+
+    .section1_para{
+        height: 70%;
+        padding: 25px;
+        font-size: 0.9rem;
+    }
+
+    .section2{
+        height: 70vh;
+        width: 100vw; 
+    }
+
+    .section2_para{
+        height: 70%;
+        padding: 20px;
+        font-size: 0.9rem;
+        padding-top: 20px;
+    }
+
+    .section3{
+        height: 70vh;
+        width: 100vw;
+ 
+    }
+
+    .section3_para{
+        height: 70%;
+        padding: 20px;
+        font-size: 0.9rem;
+        padding-top: 20px;
+    
+    }
+
+    .madeBy{
+        margin-top: 10px;
+        height: 25px;
+        font-size: 0.5rem;
+    
+    }
+    .madeBy a{
+        font-size:0.7rem ;
+    }
+    
+    a:hover{
+        border:1px solid goldenrod;
+        border-radius: 5px;
+    }
+    
+    
+
+ 
+
+
+
+
+
+
+
+
+}

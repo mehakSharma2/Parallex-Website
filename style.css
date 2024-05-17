@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.headerImg{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("backgroungImg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#heading{
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white; 
+    font-size: 4rem;
+    font-weight: bold;
+    
+}
+
+.intro{
+    height: 250px;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 60px;
+    background-color:white;
+}
+
+
+
+.section1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("section1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.section1_para{
+    height: 370px;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 60px;
+    background-color:white;
+}
+
+.section2{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("section2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;  
+}
+
+.section2_para{
+    height: 370px;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 60px;
+    background-color:white;
+}
+
+.section3{
+    height: 100vh;
+        width: 100vw;
+        background-image: url("section3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;  
+}
+
+.section3_para{
+    height: 400px;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 60px;
+    background-color:white;
+
+}
+
+#heading:hover{
+    transform: scale(1.2);
+} 
+
+/*Footer*/
+
+.madeBy{
+    margin-top: 50px;
+    height: 50px;
+    background-color:rgba(237, 222, 224,0.5);
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 15px;
+
+}
+.icon{
+    color: red;
+}
+
+.madeBy a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:1.5rem ;
+    color: red;
+}
+
+a:hover{
+    border:2px solid goldenrod;
+    border-radius: 5px;
+}
